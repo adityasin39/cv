@@ -1,0 +1,103 @@
+<!-- we can use html tables as layouts for our website like if i want to have my photo on the left and some content on the right without using CSS then this can be done with the help of tables as done from lines 11 to 25-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>❤️ Agastya's Personal Site</title>
+  </head>
+  <body>
+    <table cellspacing="20">  <!-- by default the two cells of a table are very close so we can have some space between them by using cellspacing attribute-->
+      <tr>
+        <td> <img src="C:\Users\shs27\Pictures\Camera Roll/WhatsApp Image 2023-04-02 at 13.10.18-modified.png" alt="Aditya Singh Profile Picture"></td>
+        <td> 
+    <h1>Aditya Singh</h1>
+    <p>
+      <em>Founder of <strong>❤️ Agastya's Personal Site </strong></em>
+    </p>
+    <p>
+      I am a student of Angela Yu, learning web development from her since two
+      days.
+    </p>
+  </td> 
+  </tr>
+  </table>
+    <hr>
+    <h3>Education</h3>
+    <ul>
+      <li>
+        <strong>People's Welfare Society's High School </strong> - Grade 5 to
+        Grade 8
+      </li>
+      <li>
+        <strong>Vidya Vikasini's High School</strong>- Grade 9 to Grade 10
+      </li>
+      <li><strong> Allen Career Institute</strong> - Grade 11 to Grade 12</li>
+      <li><strong><a draggable=true href="https://www.bitmesra.ac.in/"> Birla Institute of Technology, Mesra</a></strong>-2021-2025</li>
+    </ul>
+    <hr>
+    <h3>Skills</h3>
+    <table border="1"> <!-- border is to give border to a table with size 1 here-->
+      <thead><!-- by default comes in bold and is used to give column names-->
+        <tr>
+        <th>Domain</th><!-- table header cell. we will get the same result even if we put these th lines normally like a row as the browser will understand that the th represents header as mentioned from line no 41 to 45 -->
+        <th>Languages used</th> 
+        </tr>
+      </thead>
+      <tbody>
+      <!--
+        gives same output without thead but it is better to have the header part in the thead and body in tbody and footer in tfoot
+      <tr>
+        <th>Domain</th>
+        <th>Languages used</th>  
+      </tr>
+      -->
+      <tr>
+        <td>DSA</td>
+        <td>C++,C</td>
+      </tr>
+      <tr>
+        <td>Web development</td>
+        <td>HTML,CSS,JAVASCRIPT,REACT</td>
+      </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+    <hr>
+    <h3>Extracurriculars</h3>
+    <table border="1">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Singing</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Dancing</td>
+              <td>⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Gaming</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Sports</td>
+              <td>⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <a href="C:\ANGELA YU WEB DEVELOPMENT\HTML-PERSONAL SITE\hobbies.html">My Hobbies</a>
+    <!-- or <a href="hobbies.html">My Hobbies</a> this is possible when hobbies.html is in the same folder as index.html -->
+    <br>
+    <a href="contacts.html">Contact Me</a>
+  </body>
+</html>
